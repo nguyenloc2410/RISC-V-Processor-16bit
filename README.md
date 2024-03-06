@@ -19,3 +19,8 @@ And the block controls all these blocks unit above called Control Unit (CU), I t
 So just image that your Program Counter just like a pointer , when the pointer goes anywhere it send the address  - the instruction in the Instruction Memory is going to decoded into different parts and one of them is send to Register File block, then the data get from Register File based on the address send to the ALU block to excute while the Control-ALU block will decide which operation will be used?. Sound just that simple but believe me you really want to read more book to know how processor operate certainty<br/>
 
 At the first time when I build this processor I don't know why it need a Data Memory because all the instruction I insert just only use the Register File to operate, but when I realize I forgot the most important instruction that is load and store :)) sound funny right ? then from there I understand all these block what it use for correctly
+
+# 4. Instructions Structure
+<div align="center">
+<img src="/image/1.png">
+</div>
