@@ -63,4 +63,6 @@ At the first time when I build this processor I don't know why it need a Data Me
 <img src="/image/8.jpg">
 </div>
 At PC_current equal to 0 the first Instruction decoded and excute as you can see. So let check in Register File to see if it load the data or not ? 
-
+<div align="center">
+<img src="/image/9.jpg">
+</div>
