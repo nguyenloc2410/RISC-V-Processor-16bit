@@ -2,7 +2,7 @@
 # 1. RISC-V Diagram
 
 <div align="center">
-<img src="/image/1.png">
+<img src="/image/0.png">
 </div>
 
 # 2. Approach <br/>
