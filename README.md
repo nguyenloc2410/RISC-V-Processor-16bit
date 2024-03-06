@@ -22,5 +22,5 @@ At the first time when I build this processor I don't know why it need a Data Me
 
 # 4. Instructions Structure
 <div align="center">
-<img src="/image/2.png">
+<img src="/image/2.jpg">
 </div>
