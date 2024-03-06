@@ -1,0 +1,8 @@
+module instruction_memory();
+input [15:0] pc_addr;
+output [15:0] instr;
+reg [`width - 1 : 0] instr_memo [`depth - 1 : 0];
+wire [3:0] instr_addr = pc_addr[4:1];
+$readmemb("instr_list.txt",instr_memo);
+assign instr = instr_memo[instr_addr]; 
+endmodule

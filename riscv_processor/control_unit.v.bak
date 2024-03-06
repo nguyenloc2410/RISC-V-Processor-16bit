@@ -1,0 +1,5 @@
+module control_unit(opcode, alu_op, reg_dst, reg_write, alu_src, jump, beq, bne, mem_write, mem_read, mem_to_reg);
+input [3:0] opcode;
+output reg[1:0] alu_op;
+output reg reg_dst, reg_write, alu_src, jump, beq, bne, mem_write, mem_read, mem_to_reg;
+endmodule

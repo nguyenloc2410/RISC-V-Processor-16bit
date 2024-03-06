@@ -1,0 +1,241 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/never/OneDrive/Desktop/riscv_processor/simulation/questa
+T_opt
+Z2 !s110 1709472284
+VgKHneL:l<MZ;>o?ID6Inl3
+04 10 4 work test_bench fast 0
+=1-d8bbc1b1d6c5-65e47a1c-1f1-f28
+R0
+!s12b OEM100
+!s124 OEM10U9 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+valu
+2C:/Users/never/OneDrive/Desktop/riscv_processor/alu.v
+Z4 !s110 1709472283
+!i10b 1
+!s100 ?W3fo<;;TKUihgb<YbLC_1
+IUWJRbmBGQdeXLNQZiOYWR1
+R1
+w1709406970
+8C:/Users/never/OneDrive/Desktop/riscv_processor/alu.v
+FC:/Users/never/OneDrive/Desktop/riscv_processor/alu.v
+!i122 2
+L0 2 25
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z7 !s108 1709472283.000000
+!s107 C:/Users/never/OneDrive/Desktop/riscv_processor/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/never/OneDrive/Desktop/riscv_processor|C:/Users/never/OneDrive/Desktop/riscv_processor/alu.v|
+!i113 0
+Z8 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 -vlog01compat -work work +incdir+C:/Users/never/OneDrive/Desktop/riscv_processor -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+valu_control
+2C:/Users/never/OneDrive/Desktop/riscv_processor/alu_control.v
+R4
+!i10b 1
+!s100 kCMUAQkf9:^`zad`[>fOk2
+ICfC4ZJgP;m;C4Xa7[ZY4e1
+R1
+w1709374737
+8C:/Users/never/OneDrive/Desktop/riscv_processor/alu_control.v
+FC:/Users/never/OneDrive/Desktop/riscv_processor/alu_control.v
+!i122 3
+L0 3 23
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/never/OneDrive/Desktop/riscv_processor/alu_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/never/OneDrive/Desktop/riscv_processor|C:/Users/never/OneDrive/Desktop/riscv_processor/alu_control.v|
+!i113 0
+R8
+R9
+R3
+vcontrol_unit
+2C:/Users/never/OneDrive/Desktop/riscv_processor/control_unit.v
+R4
+!i10b 1
+!s100 4[X5L^T5hK[aYfbl^d_MA2
+IENof[>6Xg^kdlK]nG6c3b2
+R1
+w1709374747
+8C:/Users/never/OneDrive/Desktop/riscv_processor/control_unit.v
+FC:/Users/never/OneDrive/Desktop/riscv_processor/control_unit.v
+!i122 5
+L0 3 85
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/never/OneDrive/Desktop/riscv_processor/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/never/OneDrive/Desktop/riscv_processor|C:/Users/never/OneDrive/Desktop/riscv_processor/control_unit.v|
+!i113 0
+R8
+R9
+R3
+vdata_memory
+2C:/Users/never/OneDrive/Desktop/riscv_processor/data_memory.v
+R2
+!i10b 1
+!s100 ln6H[BHFT<B06@[ekW8jR1
+I;EY6kE^VkRWI1KYdFG48c1
+R1
+w1709408859
+8C:/Users/never/OneDrive/Desktop/riscv_processor/data_memory.v
+FC:/Users/never/OneDrive/Desktop/riscv_processor/data_memory.v
+!i122 7
+L0 3 15
+R5
+R6
+r1
+!s85 0
+31
+Z10 !s108 1709472284.000000
+!s107 C:/Users/never/OneDrive/Desktop/riscv_processor/parameter.v|C:/Users/never/OneDrive/Desktop/riscv_processor/data_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/never/OneDrive/Desktop/riscv_processor|C:/Users/never/OneDrive/Desktop/riscv_processor/data_memory.v|
+!i113 0
+R8
+R9
+R3
+vdatapath
+2C:/Users/never/OneDrive/Desktop/riscv_processor/datapath.v
+R4
+!i10b 1
+!s100 zS2@]j^jOe]^:K:X=`;WQ0
+IVleSDTAR@K=lCM^]PJ1Wd2
+R1
+w1709408801
+8C:/Users/never/OneDrive/Desktop/riscv_processor/datapath.v
+FC:/Users/never/OneDrive/Desktop/riscv_processor/datapath.v
+!i122 4
+L0 3 57
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/never/OneDrive/Desktop/riscv_processor/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/never/OneDrive/Desktop/riscv_processor|C:/Users/never/OneDrive/Desktop/riscv_processor/datapath.v|
+!i113 0
+R8
+R9
+R3
+vinstruction_memory
+2C:/Users/never/OneDrive/Desktop/riscv_processor/instruction_memory.v
+R2
+!i10b 1
+!s100 dXRgF`h1RM4KPe7BTofAW1
+IHN7:X6;bEi0cCP4UKBi4f1
+R1
+w1709409004
+8C:/Users/never/OneDrive/Desktop/riscv_processor/instruction_memory.v
+FC:/Users/never/OneDrive/Desktop/riscv_processor/instruction_memory.v
+!i122 6
+L0 3 10
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/never/OneDrive/Desktop/riscv_processor/parameter.v|C:/Users/never/OneDrive/Desktop/riscv_processor/instruction_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/never/OneDrive/Desktop/riscv_processor|C:/Users/never/OneDrive/Desktop/riscv_processor/instruction_memory.v|
+!i113 0
+R8
+R9
+R3
+vregister_file
+2C:/Users/never/OneDrive/Desktop/riscv_processor/register_file.v
+R4
+!i10b 1
+!s100 T0^?k3Wi?z:cE<`m6X8g=0
+IZlU9>o@34]4GP?>Je4V^^3
+R1
+w1709402385
+8C:/Users/never/OneDrive/Desktop/riscv_processor/register_file.v
+FC:/Users/never/OneDrive/Desktop/riscv_processor/register_file.v
+!i122 1
+L0 2 24
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/never/OneDrive/Desktop/riscv_processor/register_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/never/OneDrive/Desktop/riscv_processor|C:/Users/never/OneDrive/Desktop/riscv_processor/register_file.v|
+!i113 0
+R8
+R9
+R3
+vriscv_processor
+2C:/Users/never/OneDrive/Desktop/riscv_processor/ricsv_processor.v
+R4
+!i10b 1
+!s100 4NEfzE7>QkW>>HzKa^K]n1
+IP88TJXZI=9FAh4P_EK>Q@1
+R1
+w1709403102
+8C:/Users/never/OneDrive/Desktop/riscv_processor/ricsv_processor.v
+FC:/Users/never/OneDrive/Desktop/riscv_processor/ricsv_processor.v
+!i122 0
+L0 2 35
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/never/OneDrive/Desktop/riscv_processor/ricsv_processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/never/OneDrive/Desktop/riscv_processor|C:/Users/never/OneDrive/Desktop/riscv_processor/ricsv_processor.v|
+!i113 0
+R8
+R9
+R3
+vtest_bench
+2C:/Users/never/OneDrive/Desktop/riscv_processor/test_bench.v
+R2
+!i10b 1
+!s100 PT8UZHGo3hjMVKmL2d]X:2
+I]YXIc>lAhUQUkikQHJj873
+R1
+w1709403076
+8C:/Users/never/OneDrive/Desktop/riscv_processor/test_bench.v
+FC:/Users/never/OneDrive/Desktop/riscv_processor/test_bench.v
+!i122 8
+L0 3 14
+R5
+R6
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/never/OneDrive/Desktop/riscv_processor/parameter.v|C:/Users/never/OneDrive/Desktop/riscv_processor/test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/never/OneDrive/Desktop/riscv_processor|C:/Users/never/OneDrive/Desktop/riscv_processor/test_bench.v|
+!i113 0
+R8
+R9
+R3

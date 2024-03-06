@@ -1,0 +1,14 @@
+module data_memory (addr,wdata,rdata,we,clk);
+input [15:0] addr,wdata;
+input we,clk;
+output [15:0] rdata;
+reg [`col - 1:0] memory [`row_d - 1:0];
+wire [2:0] ram_addr = addr[2:0];
+initial begin
+$readmemb("test.txt");
+end
+always @(posedge clk)begin
+if(we)	memory[ram_addr] <= wdata;
+end
+assign rdata = memmory[ram_addr];
+endmodule

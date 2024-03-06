@@ -1,0 +1,12 @@
+module program_counter(pc_next,clk,pc_current,pc_2);
+input [15:0] pc_next;
+input clk;
+output [15:0] pc_current,pc_2;
+initial begin
+  pc_current <= 16'd0;
+ end
+always @(posedge clk)begin
+	pc_current <= pc_next;
+end
+assign pc_2 = pc_current + 16'd2;
+endmodule

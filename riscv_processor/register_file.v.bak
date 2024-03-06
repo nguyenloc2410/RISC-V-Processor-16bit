@@ -1,0 +1,22 @@
+module register_file (rs1,rs2,ws,wd,rd1,rd2,we);
+input [2:0]rs1,rs2,ws;
+input [15:0] wd;
+output [15:0] rd1,rd2;
+
+reg [15:0] reg_array [7:0];
+
+//make the array just clear
+integer i;
+initial begin
+for(i = 0; i < 8; i = i + 1)
+	reg_array[i] <= 16'd0;
+end
+
+always @(posedge clk)begin
+	if(we)begin
+		reg_array[ws] <= wd;
+	end
+end
+assign rd1 = reg_array[rs1];
+assign rd2 = reg_array[rs2];
+endmodule
