@@ -54,4 +54,12 @@ At the first time when I build this processor I don't know why it need a Data Me
 # 6. RTL Viewer
 <div align="center">
 <img src="/image/5.jpg">
+<img src="/image/5.jpg">
+<img src="/image/5.jpg">
 </div>
+
+# 7. Simulation
+<div align="center">
+<img src="/image/5.jpg">
+</div>
+
