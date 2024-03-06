@@ -66,3 +66,4 @@ At PC_current equal to 0 the first Instruction decoded and excute as you can see
 <div align="center">
 <img src="/image/9.jpg">
 </div>
+OKAY So it seem working !!!
