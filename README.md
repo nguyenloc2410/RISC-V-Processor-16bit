@@ -23,5 +23,9 @@ At the first time when I build this processor I don't know why it need a Data Me
 # 4. Instructions Structure
 4.1 R-Type
 <div align="center">
-<img src="/image/2.jpg">
+<img src="/image/3.PNG">
+</div>
+4.1 I-Type
+<div align="center">
+<img src="/image/2.PNG">
 </div>
