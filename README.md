@@ -51,5 +51,7 @@ At the first time when I build this processor I don't know why it need a Data Me
 * 1100000001000000 BNE branch to jump if R0!=R1, PCnew= PC+2+offset<<1 = 28 => offset = 0
 * 1101000000000000 J jump to the beginning address
 
-# 6. Simulations
-
+# 6. RTL Viewer
+<div align="center">
+<img src="/image/5.jpg">
+</div>
